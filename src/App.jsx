@@ -3,6 +3,7 @@ import './App.css'
 import Btesting from './Btesting'
 import Gallery from './DocumentationTutorial/Gallery'
 import SomeJs from './DocumentationTutorial/SomeJs'
+import AuseStateHook from './reactHooks/AuseStateHook'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       <Btesting />
       <Gallery />
       <SomeJs />
+      <AuseStateHook/>
     </>
   )
 }
